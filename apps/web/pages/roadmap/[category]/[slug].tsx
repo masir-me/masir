@@ -41,7 +41,7 @@ const Roadmap = ({ roadmap, categoryName, roadmapName }: any) => {
             آیا میخواهید به توسعه این صفحه کمک کنید؟
           </p>
           <Link
-            href={`https://github.com/kasraghoreyshi/rahnama/tree/main/apps/web/data/roadmaps/${categoryName}/${roadmapName}/content/${sidebarContent?.key}.md`}
+            href={`https://github.com/kasraghoreyshi/maseer/tree/main/apps/web/data/roadmaps/${categoryName}/${roadmapName}/content/${sidebarContent?.key}.md`}
             target="_blank"
             referrerPolicy="no-referrer"
           >
