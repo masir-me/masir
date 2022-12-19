@@ -1,21 +1,29 @@
+import { IconBrandGithub, IconBrandTelegram } from "@tabler/icons";
 import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between w-full">
-      <h1 className="text-lg font-thin">مسیر</h1>
+    <div
+      className="flex items-center justify-between w-full max-w-4xl mx-auto p-4
+    "
+    >
+      <Link className="text-lg font-thin" href="/">
+        مسیر
+      </Link>
       <div className="flex items-center space-x-2 space-x-reverse">
         <Link
           href="https://github.com/kasraghoreyshi/maseer"
-          className="rounded-full bg-gradient-to-tr from-green-600 to-pink-600 px-4 py-2 text-sm lg:text-base"
+          className="rounded-full border border-yellow-500 text-yellow-500 px-4 py-2 text-sm lg:text-base flex items-center space-x-2 space-x-reverse"
         >
-          مشاهده در GitHub
+          <p>ستاره دادن در گیت هاب</p>
+          <IconBrandGithub />
         </Link>
         <Link
-          className="px-4 py-2 rounded-full border text-sm lg:text-base"
+          className="px-4 py-2 rounded-full border text-sm lg:text-base border-blue-500 text-blue-500 flex items-center space-x-2 space-x-reverse"
           href={"https://t.me/my_maseer"}
         >
-          کانال تلگرام
+          <p>کانال تلگرام</p>
+          <IconBrandTelegram />
         </Link>
       </div>
     </div>

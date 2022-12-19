@@ -1,3 +1,4 @@
+import Navbar from "components/Navbar";
 import { marked } from "marked";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
@@ -31,6 +32,7 @@ const Roadmap = ({ roadmap, categoryName, roadmapName }: any) => {
         title={`مسیر یادگیری ${roadmap.metadata.name} - مسیر`}
         description={`مسیر و راهنمای یادگیری ${roadmap.metadata.name}`}
       />
+      <Navbar />
       <Sidebar
         open={sidebarOpen}
         onCloseSidebar={closeSidebar}
@@ -51,16 +53,13 @@ const Roadmap = ({ roadmap, categoryName, roadmapName }: any) => {
       </Sidebar>
 
       <div className="w-full max-w-4xl mx-auto p-4">
-        <Link href={"/"} className="px-4 py-0.5 rounded-full bg-green-600">
-          بازگشت
-        </Link>
-        <div className="flex items-center justify-between pt-4">
-          <h1 className="text-2xl font-thin">
+        <div className="flex items-center space-x-4 space-x-reverse">
+          <img src={roadmap.metadata.icon} className="w-10 h-10" />
+          <h1 className="text-3xl font-extrabold">
             مسیر یادگیری {roadmap.metadata.name}
           </h1>
-          <img className="w-12 h-12" src={roadmap.metadata.icon} />
         </div>
-        <p className="text-sm text-gray-300 mt-2">
+        <p className="text-base text-gray-300 mt-4">
           برای مشاهده جزئیات هر قدم، روی آن کافی است کلیک کنید.
         </p>
         <div className="my-4 h-0.5 w-full bg-gray-800"></div>
