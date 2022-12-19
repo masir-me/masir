@@ -15,14 +15,14 @@ const Navbar = () => {
           href="https://github.com/kasraghoreyshi/maseer"
           className="rounded-full border border-yellow-500 text-yellow-500 px-4 py-2 text-sm lg:text-base flex items-center space-x-2 space-x-reverse"
         >
-          <p>ستاره دادن در گیت هاب</p>
+          <p>گیت هاب</p>
           <IconBrandGithub />
         </Link>
         <Link
           className="px-4 py-2 rounded-full border text-sm lg:text-base border-blue-500 text-blue-500 flex items-center space-x-2 space-x-reverse"
           href={"https://t.me/my_maseer"}
         >
-          <p>کانال تلگرام</p>
+          <p>تلگرام</p>
           <IconBrandTelegram />
         </Link>
       </div>
