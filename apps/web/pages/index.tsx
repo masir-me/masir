@@ -17,7 +17,7 @@ export default function Web({ categoriesWithRoadmaps }: any) {
       />
 
       <div className="relative p-8 flex flex-col items-start justify-center max-w-5xl mx-auto">
-        <div className="w-screen h-1/4 rounded-full absolute top-0 left-1/2 -translate-x-1/2 bg-gradient-to-tr from-gray-800 to-gray-900 -z-10 opacity-30 blur-[70px]"></div>
+        <div className="w-full h-1/4 rounded-full absolute top-0 right-0 bg-gradient-to-tr from-gray-800 to-gray-900 -z-10 opacity-30 blur-[70px]"></div>
         <Navbar />
         <div className="w-full h-[1px] bg-gray-800 my-6"></div>
         <h1 className="text-xl md:text-2xl lg:text-3xl font-bold max-w-3xl">
