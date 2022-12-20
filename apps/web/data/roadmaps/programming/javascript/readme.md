@@ -1,5 +1,5 @@
 ---
-name: Javascript
+name: JavaScript
 icon: /images/javascript.svg
 isComingSoon: true
 ---

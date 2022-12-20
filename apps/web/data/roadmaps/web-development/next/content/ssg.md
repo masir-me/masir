@@ -25,4 +25,6 @@ export async function getStaticProps() {
 }
 ```
 
+---
+
 > منبع: https://nextjs.org/docs/basic-features/pages

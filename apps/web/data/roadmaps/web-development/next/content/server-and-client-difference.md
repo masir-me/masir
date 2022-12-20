@@ -16,6 +16,8 @@
 
 همچنین در سمت سرور، به هیچ عنوان به API های مرورگر ها دسترسی نخواهید داشت.
 
+---
+
 منابع:
 
 > https://nextjs.org/learn/foundations/how-nextjs-works/client-and-server

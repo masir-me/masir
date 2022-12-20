@@ -1,5 +1,5 @@
 ---
-name: Typescript
+name: TypeScript
 icon: /images/typescript.svg
 isComingSoon: true
 ---

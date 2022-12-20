@@ -40,7 +40,7 @@ const Sidebar = ({
         leaveTo="opacity-0"
       >
         <button
-          className="text-red-500 border border-red-500 rounded-full p-1 fixed top-2 right-1 z-40"
+          className="text-white bg-red-400 rounded-full p-1 fixed top-2 right-1 z-40"
           onClick={onCloseSidebar}
         >
           <IconX className="w-4 h-4" />

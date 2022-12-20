@@ -21,4 +21,6 @@ export async function getServerSideProps() {
 export default Page;
 ```
 
+---
+
 > منبع: https://nextjs.org/docs/basic-features/pages

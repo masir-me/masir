@@ -2,6 +2,8 @@
 
 هوک ها در ری اکت، فانکشن هایی هستند که با عبارت use شروع می شوند و توانایی های مختلف اعم از تغییر State دارند. هوک هایی اصلی ری اکت عبارت هستند از useState, useEffect و useReducer
 
+---
+
 ### منابع فارسی
 
 https://rahkarino.com/blog/programming/frontend/reactjs/hooks/

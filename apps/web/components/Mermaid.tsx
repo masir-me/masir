@@ -16,6 +16,7 @@ const Mermaid = ({
       startOnLoad: true,
       theme: "dark",
       securityLevel: "loose",
+
       fontFamily: "'Vazirmatn', sans-serif",
     });
     mermaid.mermaidAPI.render("sas", chart, (svgCode, bindFunctions) => {

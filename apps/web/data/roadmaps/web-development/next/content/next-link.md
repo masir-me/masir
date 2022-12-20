@@ -24,6 +24,8 @@ function Home() {
 export default Home;
 ```
 
+---
+
 منبع:
 
 > https://nextjs.org/docs/api-reference/next/link
