@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="flex items-center space-x-2 space-x-reverse">
         <Link
           href="https://github.com/kasraghoreyshi/maseer"
-          className="rounded-full border border-yellow-500 text-yellow-500 px-4 py-2 text-sm lg:text-base flex items-center space-x-2 space-x-reverse"
+          className="rounded-full border border-white text-white px-4 py-2 text-sm lg:text-base flex items-center space-x-2 space-x-reverse"
         >
           <p>گیت هاب</p>
           <IconBrandGithub />
