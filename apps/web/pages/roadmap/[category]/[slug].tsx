@@ -54,8 +54,11 @@ const Roadmap = ({ roadmap, categoryName, roadmapName }: any) => {
 
       <div className="w-full max-w-4xl mx-auto p-4">
         <div className="flex items-center space-x-4 space-x-reverse">
-          <img src={roadmap.metadata.icon} className="w-10 h-10" />
-          <h1 className="text-3xl font-extrabold">
+          <img
+            src={roadmap.metadata.icon}
+            className="w-8 lg:w-10 h-8 lg:h-10"
+          />
+          <h1 className="text-2xl lg:text-3xl font-extrabold">
             مسیر یادگیری {roadmap.metadata.name}
           </h1>
         </div>

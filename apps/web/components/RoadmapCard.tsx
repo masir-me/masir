@@ -27,7 +27,7 @@ const RoadmapCard = ({ category, roadmap, roadmapKey }: IRoadmapCardProps) => {
       />
       <h1
         className={classNames(
-          "text-4xl font-thin",
+          "text-2xl md:text-3xl lg:text-4xl font-thin",
           roadmap.isComingSoon && "opacity-50"
         )}
       >
