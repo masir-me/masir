@@ -73,7 +73,9 @@ const Roadmap = ({ roadmap, categoryName, roadmapName }: any) => {
               .map(
                 (roadmapContent: any) => `click ${roadmapContent.key} callback`
               )
-              .join("\n")
+              .join("\n") +
+            `\nclassDef default fill:#27272a,stroke:#71717a,stroke-width:1px;border-radius:10px
+              `
           }
         />
       </div>
