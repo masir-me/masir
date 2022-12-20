@@ -1,5 +1,6 @@
 import { Transition } from "@headlessui/react";
-import { PropsWithChildren } from "react";
+import { IconX } from "@tabler/icons";
+import { Fragment, PropsWithChildren } from "react";
 
 interface ISidebarProps {
   open: boolean;
@@ -30,6 +31,24 @@ const Sidebar = ({
       </Transition>
       <Transition
         show={open}
+        as={Fragment}
+        enter="transition-opacity duration-200"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-200"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
+      >
+        <button
+          className="text-red-500 border border-red-500 rounded-full p-1 fixed top-2 right-1 z-40"
+          onClick={onCloseSidebar}
+        >
+          <IconX className="w-4 h-4" />
+        </button>
+      </Transition>
+
+      <Transition
+        show={open}
         className="h-full max-h-screen w-full max-w-xl pb-8 px-8 bg-[rgb(12,12,13)] fixed top-0 right-0 z-30 prose prose-invert flex flex-col justify-between overflow-y-auto"
         enter="transition-all duration-300 ease-in-out"
         enterFrom="translate-x-full"
@@ -38,20 +57,13 @@ const Sidebar = ({
         leaveFrom="translate-x-0"
         leaveTo="translate-x-full"
       >
-        <div>
-          <button
-            className="text-red-600 text-lg pt-2"
-            onClick={onCloseSidebar}
-          >
-            بستن
-          </button>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: content || "Loading",
-            }}
-            className="max-w-xl break-words"
-          />
-        </div>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: content || "Loading",
+          }}
+          className="max-w-xl break-words"
+        />
+
         {children}
       </Transition>
     </>
