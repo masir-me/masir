@@ -14,7 +14,7 @@ const RoadmapCard = ({ category, roadmap, roadmapKey }: IRoadmapCardProps) => {
   const children = (
     <>
       {roadmap.isComingSoon && (
-        <div className="absolute top-0 right-0 p-2 bg-gray-800 rounded-bl-lg">
+        <div className="absolute top-0 right-0 p-2 bg-yellow-700 rounded-bl-lg">
           <p>به زودی</p>
         </div>
       )}

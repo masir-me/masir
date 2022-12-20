@@ -32,7 +32,8 @@ export default function Web({ categoriesWithRoadmaps }: any) {
           ({ categoryKey, category, roadmaps }: any) => {
             return (
               <React.Fragment key={categoryKey}>
-                <div className="rounded-3xl mt-8 overflow-hidden w-full h-24 relative bg-gradient-to-l from-black to-transparent border border-gray-800 p-4 flex items-center justify-start">
+                <div className="rounded-3xl mt-8 overflow-hidden w-full h-24 relative border border-gray-800 p-4 flex items-center justify-start">
+                  <div className="bg-gradient-to-l from-black to-transparent absolute right-0 top-0 w-full h-full z-10"></div>
                   <img
                     src={category.backgroundImage}
                     className="w-full h-full object-cover origin-center absolute top-0 right-0 opacity-60"
