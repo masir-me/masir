@@ -6,4 +6,4 @@
 
 ---
 
-masir is a project by [@kasraghoreyshi](https://github.com/kasraghoreyshi)
+Masir is a project by [@kasraghoreyshi](https://github.com/kasraghoreyshi)
