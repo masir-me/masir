@@ -11,7 +11,7 @@ const Navbar = () => {
         <a className="text-lg font-thin">مسیر</a>
       </Link>
       <div className="flex items-center space-x-2 space-x-reverse">
-        <Link passHref href="https://github.com/kasraghoreyshi/masir">
+        <Link passHref href="https://github.com/masir-me/masir">
           <a className="rounded-full border border-white text-white px-2 py-2 text-sm lg:text-base">
             <IconBrandGithub />
           </a>
