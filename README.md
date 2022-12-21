@@ -10,3 +10,5 @@
 ---
 
 Masir is a project by [@kasraghoreyshi](https://github.com/kasraghoreyshi)
+
+Logo is by [@alitnk](https://github.com/alitnk)
