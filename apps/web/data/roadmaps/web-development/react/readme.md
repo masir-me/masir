@@ -5,7 +5,7 @@ icon: /images/react.svg
 
 ```mermaid
 flowchart TB;
-start(فراگیری React)-->javascript["برای یادگیری ری اکت، می بایست ابتدا جاوا اسکریپت را بلد باشید."];
+start(فراگیری React)-->javascript["برای یادگیری، ابتدا می بایست جاوا اسکریپت را بلد باشید. برای مشاهده مسیر کلیک کنید."];
 javascript-->courses["دوره های آموزشی مفید"]-->fundamentals;
 subgraph fundamentals["مفاهیم پایه"]
 direction TB
@@ -21,4 +21,5 @@ subgraph ecosystem["اکوسیستم React"]
 direction TB
 forms["فرم ها"]---testing["تست کردن"]---routers["روتر ها"]---react-query["react-query"]---mobile["توسعه اپ های موبایل"]
 end
+click javascript href "/roadmap/programming/javascript"
 ```
