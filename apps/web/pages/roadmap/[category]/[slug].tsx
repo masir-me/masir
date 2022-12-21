@@ -43,11 +43,12 @@ const Roadmap = ({ roadmap, categoryName, roadmapName }: any) => {
             آیا میخواهید به توسعه این صفحه کمک کنید؟
           </p>
           <Link
-            href={`https://github.com/kasraghoreyshi/maseer/tree/main/apps/web/data/roadmaps/${categoryName}/${roadmapName}/content/${sidebarContent?.key}.md`}
+            passHref
+            href={`https://github.com/kasraghoreyshi/masir/tree/main/apps/web/data/roadmaps/${categoryName}/${roadmapName}/content/${sidebarContent?.key}.md`}
             target="_blank"
             referrerPolicy="no-referrer"
           >
-            ویرایش
+            <a>ویرایش</a>
           </Link>
         </div>
       </Sidebar>

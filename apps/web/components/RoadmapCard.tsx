@@ -38,8 +38,8 @@ const RoadmapCard = ({ category, roadmap, roadmapKey }: IRoadmapCardProps) => {
   return roadmap.isComingSoon ? (
     <div className={className}>{children}</div>
   ) : (
-    <Link href={`/roadmap/${category}/${roadmapKey}`} className={className}>
-      {children}
+    <Link href={`/roadmap/${category}/${roadmapKey}`} passHref>
+      <a className={className}>{children}</a>
     </Link>
   );
 };

@@ -28,6 +28,7 @@ direction TB;
     direction TB;
     typed-arrays["آرایه های تایپ شده"]---arrays["آرایه ها"]
     end
+    indexed-collections---keyed-collections
      subgraph keyed-collections["مجموعه های دارای کلید"]
     direction TB;
     map-js["Map"]---weak-map["Weak Map"]---set["Set"]---weak-set["Weak Set"]
