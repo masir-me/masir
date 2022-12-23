@@ -1,5 +1,7 @@
 ![Masir](https://raw.githubusercontent.com/masir-me/masir/main/graphics/readme-logo.png)
 
+[![Telegram](https://persian-badge.iran.liara.run/api/badge/تلگرام-عضو%20شوید-0088CC?logo=telegram)](https://t.me/my_masir)
+
 # مسیر: یار شما در یادگیری
 
 مسیر یک وبسایت است برای کمک کردن در یاد گرفتن مهارت های مختلف در حوزه برنامه نویسی.
